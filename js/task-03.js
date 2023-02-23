@@ -24,7 +24,7 @@ const images = [
 ];
 
 
-const galleryEL = document.querySelector(".galerry");
+const galleryEL = document.querySelector(".gallery");
 
 const galleryItems = images.map(
   image => `<li> <img src="${image.url}" alt="${image.alt}"></li>`
