@@ -48,7 +48,7 @@ function inputValue() {
 
 function createBoxes(amount) {
   let size = 30;
-
+// створюємо нові елем. div
   for (let i = 1; i <= amount; i += 1) {
     const newEl = document.createElement('div');
     size += 10;
@@ -62,7 +62,9 @@ function createBoxes(amount) {
   };
 };
 
+
 function destroyBoxes() {
+  // властивість innerHTML із пороржнім рядком, очищує вміст елементу
   collection.innerHTML = '';
 }
 
