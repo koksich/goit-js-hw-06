@@ -14,7 +14,7 @@ function onInputChange(event) {
 
         // output.textContent = event.currentTarget.value === " " ? "Anonymous" : event.currentTarget.value;
 
-    if (event.currentTarget.value === " ") {
+    if (event.currentTarget.value === "") {
         output.textContent = "Anonymous";
     }
     else {
