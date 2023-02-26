@@ -66,5 +66,6 @@ function createBoxes(amount) {
 function destroyBoxes() {
   // властивість innerHTML із пороржнім рядком, очищує вміст елементу
   collection.innerHTML = '';
+  input.value = '';
 }
 
